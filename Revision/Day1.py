@@ -48,7 +48,6 @@ print("Revision Day 1: Programming Languages and Paradigms")
 
 #  * Functional Programming
 #   - Based on the concept of mathematical functions
-
 #   - Examples: Haskell, Lisp, Erlang
 
 #  * Event-Driven Programming
@@ -77,7 +76,6 @@ print("Revision Day 1: Programming Languages and Paradigms")
 
 # 4. Choosing the Right Programming Language
 #      - Consider the project requirements and goals
-
 #      - Evaluate the language's ecosystem and community support
 #      - Assess the learning curve and developer experience
 #      - Analyze performance and scalability needs
@@ -86,5 +84,6 @@ print("Revision Day 1: Programming Languages and Paradigms")
 
 # 5. Conclusion
 
-#      - Understanding different programming languages and paradigms is crucial for selecting the right tool for your projects. Each language has its strengths and weaknesses, and the choice should align with the specific needs of the task at hand.
+# Understanding different programming languages and paradigms is crucial for selecting the right tool for your projects.
+# Each language has its strengths and weaknesses, and the choice should align with the specific needs of the task at hand.
 print("Understanding different programming languages and paradigms is crucial for selecting the right tool for your projects.")
