@@ -49,3 +49,31 @@ print("New string:", new_string)
 print("Original string after modification attempt:", my_string)
 # In summary, identifiers are names used to identify programming constructs, while variables are named locations that store data.
 # Mutable data types can be changed after creation, while immutable data types cannot be changed after creation.
+
+
+# () - Functions:
+
+# Functions are defined using the def keyword followed by the function name and parentheses.
+# They can take parameters (inputs) and can return values (outputs) using the return statement.
+num1 = 10
+
+print(num1)
+
+#  10
+
+num2 = 20 
+
+print(num2)
+
+# 20
+
+#  In Format F :
+
+print(f"num1: {num1}")
+
+# num1: 10
+
+#  Addition :
+
+print(f"num1 + num2 = ",{num1}+{num2}) 
+
