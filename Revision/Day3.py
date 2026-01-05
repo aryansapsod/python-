@@ -209,3 +209,6 @@ else :
     print("Voter is Not Eligible")
     
 
+
+# In summary, if, elif, and else statements help control the flow of your program based on conditions.
+print("Conditional Statements in Python: if, elif, else")
