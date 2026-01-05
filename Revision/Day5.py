@@ -42,6 +42,19 @@ def greet_user(name):
     print(f"Hello, {name}!")
 greet_user("Aryan")
 
+num1 = 20
+num2 = 30
+
+def function():    # Def = Denifine function
+    print("inside  Parameterless Function")       #In Blocks 
+    print(f"num1 + num2= {num1+num2}")
+    
+    
+function()      # Function Call
+
+
+    
+
 # Function with Return Value: A function that returns a value after performing its task.
 def add_numbers(a, b):
     return a + b
@@ -58,3 +71,4 @@ print(f"Factorial: {fact}")
 # Lambda Function: A small anonymous function defined using the lambda keyword.
 square = lambda x: x * x
 print(f"Square: {square(4)}")
+
