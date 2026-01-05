@@ -64,5 +64,48 @@ def function1():
     
 function1()
 
+#  Three Types Of Function IN Python :
 
+# 1. Built-in Functions: These are functions that are already defined in Python, like print(), len(), and type().
+# 2. User-defined Functions: These are functions that you create yourself using the def keyword, like the function() and check_grade() examples above.
+# 3. Ananymous Function (Lambda Functions): These are small, unnamed functions definied using the lambda keyword, often used for short operations.
+def check_voter_eligiblity():
+    age = int(input("Enter Your Age: "))
+    if age >= 18:
+        print("You are Eligible to Vote.")
+    else:
+        print("You are Not Eligible to Vote.")
+        
+check_voter_eligiblity()
+
+
+#  1.Function Definition: 
+#       A function is defined using the def keyword followed by the function name and parentheses ().
+#  2.Function declaration: 
+#       This is the process of defining a function, which includes specifying its name, parameters (if any),
+#     and the block of code it will execute.
+#  3.Function Call: 
+#       To execute the code inside a function, you call it by using its name followed by parentheses ().
+
+# 1. Function Definition Example:
+
+def greet():
+    print("Hello, welcome to Python functions!")
+greet()  # Function Call Example
+
+# 2. Function Declaration Example:
+
+def add_numbers(a, b):
+    return a + b    
+result = add_numbers(5, 3)  # Function Call Example
+print("Sum:", result)  # Output: Sum: 8
+
+# 3. Function Call Example:
+def multiply_numbers(x, y):
+    return x * y
+product = multiply_numbers(4, 6)  # Function Call Example
+print("Product:", product)  # Output: Product: 24
+# In summary, functions in Python help organize code into reusable blocks, making it easier to read, maintain, and debug.
+
+        
 
