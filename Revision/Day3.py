@@ -104,3 +104,7 @@ print(f"i after multiplying by 2: {i}")  # i after multiplying by 2: 20 output
 # Each data Type has its own characteristecs and use cases.
 print("Data Types in Python:")
 
+j = 15.5  # float data type
+print(f"j: {j}, Type of j: {type(j)}")  # j: 15.5, Type of j: <class 'float'>
+k = 3 + 4j  # complex data type
+print(f"k: {k}, Type of k: {type(k)}")  # k: (3+4j), Type of k: <class 'complex'>
