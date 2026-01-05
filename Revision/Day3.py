@@ -106,5 +106,13 @@ print("Data Types in Python:")
 
 j = 15.5  # float data type
 print(f"j: {j}, Type of j: {type(j)}")  # j: 15.5, Type of j: <class 'float'>
+
 k = 3 + 4j  # complex data type
 print(f"k: {k}, Type of k: {type(k)}")  # k: (3+4j), Type of k: <class 'complex'>
+
+# if :
+# if, elif, and else — Explanation with Examples (Python)
+
+# These are conditional statements used to make decisions in a program. 
+# They allow your code to execute different blocks based on whether a condition is True or False.
+
