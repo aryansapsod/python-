@@ -95,14 +95,8 @@ print(f"i after multiplying by 2: {i}")  # i after multiplying by 2: 20 output
 # Data Types in Python:
 # python has several built-in data types, including:
 # 1.Numeric Types: int,float,complex
-# 2.sequence Types: List,tuple,range
-# 3.mapping type: Dict
-# 4.set Types: set, frozenset
-# 5.boolean Type: Bool
-# text Type: str (string)
-# 6.bianary Types: bytes ,bytearray ,memoryview
-# Each data Type has its own characteristecs and use cases.
-print("Data Types in Python:")
+i = 10  # int data type
+print(f"i: {i}, Type of i: {type(i)}")  # i: 10, Type of i: <class 'int'>
 
 j = 15.5  # float data type
 print(f"j: {j}, Type of j: {type(j)}")  # j: 15.5, Type of j: <class 'float'>
@@ -110,9 +104,89 @@ print(f"j: {j}, Type of j: {type(j)}")  # j: 15.5, Type of j: <class 'float'>
 k = 3 + 4j  # complex data type
 print(f"k: {k}, Type of k: {type(k)}")  # k: (3+4j), Type of k: <class 'complex'>
 
+# 2.sequence Types: List,tuple,range
+my_list = [1, 2, 3, 4, 5]  # list data type
+print(f"my_list: {my_list}, Type of my_list: {type(my_list)}") # my_list: [1, 2, 3, 4, 5], Type of my_list: <class 'list'>
+my_tuple = (1, 2, 3, 4, 5)  # tuple data type
+print(f"my_tuple: {my_tuple}, Type of my_tuple: {type(my_tuple)}") # my_tuple: (1, 2, 3, 4, 5), Type of my_tuple: <class 'tuple'>
+my_range = range(1, 6)  # range data type
+
+# 3.mapping type: Dict
+my_dict = {'a': 1, 'b': 2, 'c': 3}  # dict data type
+print(f"my_dict: {my_dict}, Type of my_dict: {type(my_dict)}") # my_dict: {'a': 1, 'b': 2, 'c': 3}, Type of my_dict: <class 'dict'> 
+
+# 4.set Types: set, frozenset
+my_set = {1, 2, 3, 4, 5}  # set data type
+print(f"my_set: {my_set}, Type of my_set: {type(my_set)}") # my_set: {1, 2, 3, 4, 5}, Type of my_set: <class 'set'>
+
+my_frozenset = frozenset([1, 2, 3, 4, 5])  # frozenset data type
+print(f"my_frozenset: {my_frozenset}, Type of my_frozenset: {type(my_frozenset)}") # my_frozenset: frozenset({1, 2, 3, 4, 5}), Type of my_frozenset: <class 'frozenset'>
+
+# 5.boolean Type: Bool
+is_true = True  # bool data type
+print(f"is_true: {is_true}, Type of is_true: {type(is_true)}") # is_true: True, Type of is_true: <class 'bool'>
+
+# text Type: str (string)
+a = "Aryan"  # str data type
+print(f"a: {a}, Type of a: {type(a)}")  # a: Aryan, Type of a: <class 'str'>
+
+# 6.bianary Types: bytes ,bytearray ,memoryview
+bytes_data = b'Hello'  # bytes data type
+print(f"bytes_data: {bytes_data}, Type of bytes_data: {type(bytes_data)}")
+# bytes_data: b'Hello', Type of bytes_data: <class 'bytes'>
+bytearray_data = bytearray(b'Hello')  # bytearray data type
+print(f"bytearray_data: {bytearray_data}, Type of bytearray_data: {type(bytearray_data)}")
+# bytearray_data: bytearray(b'Hello'), Type of bytearray_data: <class 'bytearray'>
+memoryview_data = memoryview(b'Hello')  # memoryview data type
+print(f"memoryview_data: {memoryview_data}, Type of memoryview_data: {type(memoryview_data)}")
+# memoryview_data: <memory at 0x...>, Type of memoryview_data: <class 'memoryview'>
+
+# 7.complex Type: complex
+complex_num = 3 + 4j  # complex data type
+print(f"complex_num: {complex_num}, Type of complex_num: {type(complex_num)}")  # complex_num: (3+4j), Type of complex_num: <class 'complex'>
+
+# Each data Type has its own characteristics and use cases.
+print("Data Types in Python:")
+
+
 # if :
 # if, elif, and else — Explanation with Examples (Python)
 
 # These are conditional statements used to make decisions in a program. 
 # They allow your code to execute different blocks based on whether a condition is True or False.
 
+# 1. if Statement
+
+# The if statement checks a condition.
+# If the condition is True, the code inside it runs.
+
+# Syntax:
+# if condition:
+#     # code to execute if condition is True
+age = 18
+if age >= 18:
+    print("You are eligible to vote.")  # Output: You are eligible to vote.
+# 2. elif Statement
+# The elif (else if) statement checks another condition if the previous if condition was False.
+# You can have multiple elif statements.
+# Syntax:
+# if condition1:
+#     # code to execute if condition1 is True
+# elif condition2:
+#     # code to execute if condition2 is True
+
+marks = 85
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 80:
+    print("Grade: B")  # Output: Grade: B   
+    
+# 3. else Statement
+# The else statement runs if none of the previous conditions were True.
+
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 80:
+    print("Grade: B")
+else:
+    print("Grade: C")  # Output: Grade: B
