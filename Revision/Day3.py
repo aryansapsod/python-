@@ -77,3 +77,16 @@ print(f"num1: {num1}")
 
 print(f"num1 + num2 = {num1 + num2}") 
 
+# initialization :
+
+i = 10   # initialization
+
+print(f"i: {i}")  # i: 10 output
+
+i += 1   # incrementing by 1
+print(f"i after incrementing by 1: {i}")  # i after incrementing by 1: 11 output
+
+i -= 1   # decrementing by 1
+print(f"i after decrementing by 1: {i}")  # i after decrementing by 1: 10 output
+i *= 2   # multiplying by 2
+print(f"i after multiplying by 2: {i}")  # i after multiplying by 2: 20 output
