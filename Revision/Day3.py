@@ -212,3 +212,5 @@ else :
 
 # In summary, if, elif, and else statements help control the flow of your program based on conditions.
 print("Conditional Statements in Python: if, elif, else")
+
+# They allow you to execute different code blocks depending on whether certain conditions are met.
