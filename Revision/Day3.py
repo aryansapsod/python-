@@ -190,3 +190,21 @@ elif marks >= 80:
     print("Grade: B")
 else:
     print("Grade: C")  # Output: Grade: B
+    
+num =20 
+
+if num > 10 :
+    print("Exicution successful")
+    
+else:
+    print("Unsuccessful")
+
+
+Age = int(input("Enter your age: ")) 
+
+if Age < 20:
+    print("Voter Can Eligible")
+    
+else :
+    print("Voter is Not Eligible")
+    
