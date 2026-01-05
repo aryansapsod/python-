@@ -58,5 +58,11 @@ def check_number():                       # Function definition
 check_number()  # Function call to execute the code inside the function
 
 
+def function1():
+    age = int(input("Enter A Age :"))
+    print(f"Your Age Is :{age}")
+    
+function1()
+
 
 
