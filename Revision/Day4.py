@@ -107,5 +107,28 @@ product = multiply_numbers(4, 6)  # Function Call Example
 print("Product:", product)  # Output: Product: 24
 # In summary, functions in Python help organize code into reusable blocks, making it easier to read, maintain, and debug.
 
-        
+#  () --> Parentheses are used in function definitions and calls to enclose parameters and arguments.
+
+#  {} --> Curly braces are used to define dictionaries and sets in Python.
+
+#  [] --> Square brackets are used to define lists and access elements by index.
+
+#  <> --> Angle brackets are not commonly used in standard Python syntax but may appear in type hints or comparisons.
+
+# In summary, functions in Python help organize code into reusable blocks, making it easier to read, maintain, and debug.
+#  (), {}, [], and <> are different types of brackets used in Python for various purposes.
+
+# They allow you to execute different code blocks depending on whether certain conditions are met.
+
+# 4. Summary of Conditional Statements
+# if, elif, and else statements help control the flow of your program based on conditions.
+# They allow you to execute different code blocks depending on whether certain conditions are met.
+print("Conditional Statements in Python: if, elif, else")
+print("They allow you to execute different code blocks depending on whether certain conditions are met.")
+# In summary, if, elif, and else statements help control the flow of your program based on conditions.
+# They allow you to execute different code blocks depending on whether certain conditions are met.
+print("Conditional Statements in Python: if, elif, else")
+
+
+
 
