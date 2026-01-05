@@ -99,7 +99,8 @@ print(f"i after multiplying by 2: {i}")  # i after multiplying by 2: 20 output
 # 3.mapping type: Dict
 # 4.set Types: set, frozenset
 # 5.boolean Type: Bool
-# text Type: str
+# text Type: str (string)
 # 6.bianary Types: bytes ,bytearray ,memoryview
 # Each data Type has its own characteristecs and use cases.
 print("Data Types in Python:")
+
