@@ -4,6 +4,7 @@
 # Withdrawn
 # BalanceCheck
 # UserExit
+
 pin = 1425
 Userpin=int(input("Enter Your Pin: "))
 if pin ==Userpin:
@@ -12,8 +13,6 @@ if pin ==Userpin:
     print(" Welcome To Aryan Python Bank!")
     print("*"*60)
     
-    
-
     print("""
     1.Deposit:
     2.Withdrawn:
@@ -22,11 +21,9 @@ if pin ==Userpin:
         """)
     
     print("-"*60)
-
     Balance = 10000
 
     Choice = int(input(("Enter Your Choice: ")))
-
     if Choice==1:
         Deposit =float(input("Enter Your Deposited: "))
         print("^"*60)
