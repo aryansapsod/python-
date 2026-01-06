@@ -17,10 +17,10 @@ if age>=18 and age<=25:
     elif Percentage>=80:
         print("Your Addmission IS Successful")
         
-    elif Percentage<60 and Percentage>70:
+    elif Percentage>60 and Percentage<70:
         print("You Need to Pay 7 Lakh + Additional Charges")
         
-    elif Percentage<=50:
+    elif Percentage>00 and Percentage<60:
         print("Not Eligible Due To Inefficient Percentage")
         
     else:
