@@ -7,7 +7,10 @@
 pin = 1425
 Userpin=int(input("Enter Your Pin: "))
 if pin ==Userpin:
+    print("Pin Verified🏧")
+    print('*'*60)
     print(" Welcome To Aryan Python Bank!")
+    print("*"*60)
     
     
 
@@ -17,6 +20,8 @@ if pin ==Userpin:
     3.BalanceCheck:
     4.Exit:      
         """)
+    
+    print("-"*60)
 
     Balance = 10000
 
@@ -24,6 +29,7 @@ if pin ==Userpin:
 
     if Choice==1:
         Deposit =float(input("Enter Your Deposited: "))
+        print("^"*60)
         if Deposit>0:
             Balance+=Deposit
             print("Rs",Deposit,"Amount Has Been Successfully Creadited, Balance Is Rs ",Balance)
@@ -39,8 +45,10 @@ if pin ==Userpin:
             if Withdrawn<=Balance:
                 Balance -= Withdrawn
                 print("Rs",Withdrawn,"Amount Had Been  Debited Successfully, New Balance Rs ",Balance)
+                # print('^'*60)
             else:
                 print("Insufficient Balance")
+                
         else:
             print("Invalid Amount")
                 
@@ -54,7 +62,7 @@ if pin ==Userpin:
          print("Invalid Chioce")
          
 else:
-    print("Wrong Pin")
+    print("Incorrect Pin ❌")
     
 
             
