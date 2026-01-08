@@ -53,6 +53,33 @@ if int(input('Enter Your Choice:')) ==1:
             total = quantity * 1200
             print("Total Price: ", total, "INR")
             
+        elif int(input("Enter Your Choice: "))==3:
+            print("Raisins Price Per Kg: 600 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 600
+            print("Total Price: ", total, "INR")
+            
+            payment_method = input("Enter Payment Method (UPI/Credit Card/Debit Card/Cash): ")  
+            print("You have selected", payment_method, "as your payment method.")
+            
+        elif int(input("Enter Your Choice: "))==4:
+            print("Walnuts Price Per Kg: 1500 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 1500
+            print("Total Price: ", total, "INR")
+            
+            payment_method = input("Enter Payment Method (UPI/Credit Card/Debit Card/Cash): ")  
+            print("You have selected", payment_method, "as your payment method.")
+            
+        elif int(input("Enter Your Choice: "))==5:
+            print("Figs Price Per Kg: 700 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 700
+            print("Total Price: ", total, "INR")
+        
             payment_method = input("Enter Payment Method (UPI/Credit Card/Debit Card/Cash): ")
             print("You have selected", payment_method, "as your payment method.")
             # Here, you can add further processing based on the payment method if needed.
