@@ -41,6 +41,11 @@ if int(input('Enter Your Choice:')) ==1:
             quantity = int(input())
             total = quantity * 800
             print("Total Price: ", total, "INR")
+            
+            payment_method = input("Enter Payment Method (UPI/Credit Card/Debit Card/Cash): ")  
+            print("You have selected", payment_method, "as your payment method.")
+            # Here, you can add further processing based on the payment method if needed.
+            
         elif int(input("Enter Your Choice: "))==2:
             print("Pistachios Price Per Kg: 1200 INR")
             print("Enter Quantity in Kgs: ")
