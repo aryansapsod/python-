@@ -21,6 +21,88 @@ if int(input('Enter Your Choice:')) ==1:
           """)
     print("For More Info Contact: 7066050740")
     
+    if int(input("Enter Your Choice: "))==1:
+        print("""Dryfruits: 
+        1.Almonds
+        2.Pistachios
+        3.Raisins
+        4.Walnuts
+        5.Figs
+        6.Date Palm
+        7.Pomegranate Seeds
+        8.Kishmish (Grapes)
+        9.Apricot Kernel
+        10.Cashew Nuts
+        """)
+        
+        if int(input("Enter Your Choice: "))==1:
+            print("Almonds Price Per Kg: 800 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 800
+            print("Total Price: ", total, "INR")
+        elif int(input("Enter Your Choice: "))==2:
+            print("Pistachios Price Per Kg: 1200 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 1200
+            print("Total Price: ", total, "INR")
+            
+            payment_method = input("Enter Payment Method (UPI/Credit Card/Debit Card/Cash): ")
+            print("You have selected", payment_method, "as your payment method.")
+            # Here, you can add further processing based on the payment method if needed.
+        # Similarly, you can add more elif blocks for other dryfruits if needed.
+        
+        elif int(input("Enter Your Choice: "))==3:
+            print("Raisins Price Per Kg: 600 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 600
+            print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==4:
+            print("Walnuts Price Per Kg: 1500 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 1500
+            print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==5:
+            print("Figs Price Per Kg: 700 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 700
+            print("Total Price: ", total, "INR")
+
+    elif int(input("Enter Your Choice: "))==2:
+        print("""Kirana:
+        1.Sugar
+        2.Rice
+        3.Oil
+        4.Salt
+        5.Ginger Powder
+        6.Turmeric Powder
+        7.Wheat Flour
+        8.Lentils
+        9.Pulses
+        10.Tea Leaves
+        """)
+
+    elif int(input("Enter Your Choice: "))==3:
+        print("""Masale:
+        1.Red Chilli Powder
+        2.Black Pepper Powder
+        3.Cumin Powder
+        4.Garam Masala Powder
+        5.Coriander Powder
+        6.Fenugreek Seeds
+        7.Mustard Seeds
+        8.Cardamom
+        9.Cloves
+        10.Nutmeg
+        """)
+        
+
 elif int(input('Enter Your Choice:')) ==2:
     print("Payment Gateway Is Under Maintenance, Please Try Again Later")
     
