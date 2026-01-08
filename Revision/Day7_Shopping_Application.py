@@ -177,11 +177,7 @@ if int(input("Enter Your Choice: "))==3:
         """)
         
 
-elif int(input('Enter Your Choice:')) ==2:
-    print("Payment Gateway Is Under Maintenance, Please Try Again Later")
-    
-elif int(input('Enter Your Choice:')) ==3:
-    print("Your Order Is Being Processed, You Will Receive It Soon")   
-    
+      
+
 else:
     print("Invalid Choice, Please Try Again")
