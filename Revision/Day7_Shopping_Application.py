@@ -79,7 +79,7 @@ if int(input('Enter Your Choice:')) ==1:
             quantity = int(input())
             total = quantity * 700
             print("Total Price: ", total, "INR")
-        
+
             payment_method = input("Enter Payment Method (UPI/Credit Card/Debit Card/Cash): ")
             print("You have selected", payment_method, "as your payment method.")
             # Here, you can add further processing based on the payment method if needed.
@@ -105,8 +105,45 @@ if int(input('Enter Your Choice:')) ==1:
             quantity = int(input())
             total = quantity * 700
             print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==6:
+            print("Date Palm Price Per Kg: 900 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 900
+            print("Total Price: ", total, "INR")
+            
+            
+            
+        elif int(input("Enter Your Choice: "))==7:
+            print("Pomegranate Seeds Price Per Kg: 1100 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 1100
+            print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==8:
+            print("Kishmish (Grapes) Price Per Kg: 650 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 650
+            print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==9:
+            print("Apricot Kernel Price Per Kg: 1300 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 1300
+            print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==10:
+            print("Cashew Nuts Price Per Kg: 1400 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 1400
+            print("Total Price: ", total, "INR")
 
-    elif int(input("Enter Your Choice: "))==2:
+    if int(input("Enter Your Choice: "))==2:
         print("""Kirana:
         1.Sugar
         2.Rice
@@ -119,8 +156,13 @@ if int(input('Enter Your Choice:')) ==1:
         9.Pulses
         10.Tea Leaves
         """)
-
+        
     elif int(input("Enter Your Choice: "))==3:
+        print("Kirana Selected")
+        print("Prising Information Unavailable At The Moment")
+        
+
+if int(input("Enter Your Choice: "))==3:
         print("""Masale:
         1.Red Chilli Powder
         2.Black Pepper Powder
