@@ -189,6 +189,7 @@ if int(input("Enter Your Choice: "))==3:
         9.Cloves
         10.Nutmeg
         11.Cinnamon
+        12.Asafetida
         """)
         
 
