@@ -188,6 +188,7 @@ if int(input("Enter Your Choice: "))==3:
         8.Cardamom
         9.Cloves
         10.Nutmeg
+        11.Cinnamon
         """)
         
 
@@ -195,3 +196,5 @@ if int(input("Enter Your Choice: "))==3:
 
 else:
     print("Invalid Choice, Please Try Again")
+    
+    
