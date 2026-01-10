@@ -196,6 +196,13 @@ if int(input("Enter Your Choice: "))==3:
         16.Tamarind
         """)
         
+        if int(input("Enter Your Choice: "))==1:
+            print("Red Chilli Powder Price Per Kg: 400 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 400
+            print("Total Price: ", total, "INR")
+        
 
       
 
