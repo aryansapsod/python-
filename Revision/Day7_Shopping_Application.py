@@ -286,6 +286,13 @@ if int(input("Enter Your Choice: "))==3:
             quantity = int(input())
             total = quantity * 200
             print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==14:
+            print("Bay Leaves Price Per Kg: 250 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 250
+            print("Total Price: ", total, "INR")
 
 else:
     print("Invalid Choice, Please Try Again")
