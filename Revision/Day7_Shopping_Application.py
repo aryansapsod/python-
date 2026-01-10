@@ -273,6 +273,12 @@ if int(input("Enter Your Choice: "))==3:
             total = quantity * 1400
             print("Total Price: ", total, "INR")
       
+        elif int(input("Enter Your Choice: "))==12:
+            print("Asafetida Price Per Kg: 800 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 800
+            print("Total Price: ", total, "INR")
 
 else:
     print("Invalid Choice, Please Try Again")
