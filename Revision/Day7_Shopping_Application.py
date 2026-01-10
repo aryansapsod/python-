@@ -202,6 +202,13 @@ if int(input("Enter Your Choice: "))==3:
             quantity = int(input())
             total = quantity * 400
             print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==2:
+            print("Black Pepper Powder Price Per Kg: 900 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 900
+            print("Total Price: ", total, "INR")
         
 
       
