@@ -251,6 +251,13 @@ if int(input("Enter Your Choice: "))==3:
             quantity = int(input())
             total = quantity * 1500
             print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==9:
+            print("Cloves Price Per Kg: 1200 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 1200
+            print("Total Price: ", total, "INR")
       
 
 else:
