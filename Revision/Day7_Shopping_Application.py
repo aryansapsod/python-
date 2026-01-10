@@ -210,7 +210,12 @@ if int(input("Enter Your Choice: "))==3:
             total = quantity * 900
             print("Total Price: ", total, "INR")
         
-
+        elif int(input("Enter Your Choice: "))==3:
+            print("Cumin Powder Price Per Kg: 500 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 500
+            print("Total Price: ", total, "INR")
       
 
 else:
