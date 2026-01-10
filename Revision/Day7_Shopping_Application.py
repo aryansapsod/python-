@@ -237,6 +237,13 @@ if int(input("Enter Your Choice: "))==3:
             quantity = int(input())
             total = quantity * 450
             print("Total Price: ", total, "INR")
+            
+        elif int(input("Enter Your Choice: "))==7:
+            print("Mustard Seeds Price Per Kg: 300 INR")
+            print("Enter Quantity in Kgs: ")
+            quantity = int(input())
+            total = quantity * 300
+            print("Total Price: ", total, "INR")
       
 
 else:
